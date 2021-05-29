@@ -1,0 +1,19 @@
+.footer__link {
+    text-decoration: none;
+    display: flex;
+    margin-right: 18px;
+    color: #FFFFFF;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width:320px) {
+    .footer__link {
+        margin-bottom: 32px;
+    }
+    .footer__link:last-of-type {
+        margin-right: 0;
+    }
+}
