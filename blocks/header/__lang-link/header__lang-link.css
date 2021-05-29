@@ -1,0 +1,11 @@
+.header__lang-link {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFF;
+    margin-left: 18px;
+}
+
+.header__lang-link:first-child {
+    text-decoration: underline;
+}
