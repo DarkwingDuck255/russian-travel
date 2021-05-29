@@ -28,11 +28,22 @@
 	}
 }
 
+@media screen and (max-width:620px) {
+	.place {
+		max-width: 620px;
+		grid-template-columns:minmax(320px, 288px);
+		grid-column-gap: 0px;
+		grid-row-gap: 32px;
+		justify-content: center;
+	}
+}
+
 @media screen and (max-width:320px) {
 	.place {
 		max-width: 320px;
 		grid-template-columns:minmax(320px, 288px);
 		grid-column-gap: 0px;
 		grid-row-gap: 32px;
+		justify-content: center;
 	}
 }
