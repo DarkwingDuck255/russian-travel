@@ -30,24 +30,13 @@
     .cover {
         max-width: 1024px;
     }
-    .cover::before {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
+
 }
 
 @media screen and (max-width:768px) {
     .cover {
         max-width: 768px;
         margin-top: 90px;
-    }
-    .cover::before {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
     }
 }
 
@@ -57,10 +46,5 @@
         margin-top: 66px;
         background-size: 320px 200px;
     }
-    .cover::before {
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
+
 }
