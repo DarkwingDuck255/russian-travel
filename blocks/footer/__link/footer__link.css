@@ -13,16 +13,4 @@
     .footer__link {
         margin-bottom: 32px;
     }
-    .footer__link:last-of-type {
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width:320px) {
-    .footer__link {
-        margin-bottom: 32px;
-    }
-    .footer__link:last-of-type {
-        margin-right: 0;
-    }
 }
